@@ -1,8 +1,27 @@
+*{
+    box-sizing: border-box;
+    font-family: monospace;
+    color: #777;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color: lightslategray;
+    background-color: gray;
 }
 
 h1{
-    font-family: monospace;
+    color: rgb(235, 126, 83);
     background-color: lightsteelblue;
+}
+
+.title{
+    color: papayawhip;
+    font-size: 150%;
+    text-align: center;
+}
+.main{
+    font-size: medium;
 }
