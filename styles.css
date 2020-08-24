@@ -1,27 +1,50 @@
+/*  MASTER STYLES   */
 *{
-    box-sizing: border-box;
-    font-family: monospace;
-    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
 }
-html, body{
-    margin: 0;
-    padding: 0;
-}
-
 body{
-    background-color: black;
+    margin: 0px;
+    background-color: #4e5d9448;
 }
 
-h1{
-    color: rgb(235, 126, 83);
-    background-color: #4e5d94;
-}
 
-.title{
-    color: papayawhip;
-    font-size: 150%;
-    text-align: left;
+
+/*  navBar img Styles   */
+img{
+
+    vertical-align: middle;
+    height: 20px;
 }
-.main{
-    font-size: medium;
+/*  navBar Styles   */
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    background: #ffffff;
+}
+.navLeft {
+    display: flex;
+}
+.navBar > .navLeft > .navLink {
+    margin-right: 20px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+.navLink {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.navLink a {
+    text-decoration: none;
+    transition: color 0.5s;
+    vertical-align: auto;
+}
+.navLink:hover {
+    border-bottom: 1px solid #4e5d94;
+}
+.navLink a:hover {
+    color: #4e5d94;
+    font-weight: bold;
 }
