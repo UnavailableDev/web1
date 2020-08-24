@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: monospace;
-    color: #777;
+    color: green;
 }
 html, body{
     margin: 0;
@@ -9,18 +9,18 @@ html, body{
 }
 
 body{
-    background-color: gray;
+    background-color: black;
 }
 
 h1{
     color: rgb(235, 126, 83);
-    background-color: lightsteelblue;
+    background-color: #4e5d94;
 }
 
 .title{
     color: papayawhip;
     font-size: 150%;
-    text-align: center;
+    text-align: left;
 }
 .main{
     font-size: medium;
