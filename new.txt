@@ -1,0 +1,11 @@
+Stonks:{
+    const count = 100
+    const users = //x;
+    users > count{
+        value++;
+    }
+    users < count{
+        value--;
+    }
+    //write or return stats.json new value
+}
