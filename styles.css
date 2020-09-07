@@ -1,11 +1,11 @@
 /*  MASTER STYLES   */
 *{
     font-family: Arial, Helvetica, sans-serif;
-    color: #777;
+    color: #414141;
 }
 body{
     margin: 0px;
-    background-color: #4e5d9448;
+    background-color: #4e5d9441;
 }
 
 
@@ -39,7 +39,7 @@ img{
 .navLink a {
     text-decoration: none;
     transition: color 0.5s;
-    vertical-align: auto;
+    vertical-align: middle;
 }
 .navLink:hover {
     border-bottom: 1px solid #4e5d94;
@@ -47,4 +47,5 @@ img{
 .navLink a:hover {
     color: #4e5d94;
     font-weight: bold;
+    margin-right: -2.3px;
 }
